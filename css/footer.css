@@ -1,0 +1,58 @@
+footer{
+  width:100%;
+  height:185px;
+  background-color:#4b4b4b;
+}
+footer .wrap{
+  width:100%;
+  height:185px;
+}
+footer .wrap .enb{
+  width:100%;
+  height:83px;
+  padding:0px 15px;
+  box-sizing:border-box;
+}
+footer .wrap .enb h1.h3{
+  height:53px;
+  padding:15px 0px 15px;
+  display:flex;
+  justify-content:center;
+  text-align:center;
+}
+footer .wrap .enb h1.h3>span{
+  height:100%;
+  width:274px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:0;
+  background:transparent 0 center url(../img/tlstprp1.png) no-repeat;
+  background-size:cover;
+}
+footer .wrap .gnb{
+  width:100%;
+  height:102px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+footer .wrap .gnb address{
+  position:relative;
+  color: #d8d8d8;
+}
+footer .wrap .gnb address p{
+}
+footer .wrap .gnb address p:nth-child(2){
+  line-height:25px;
+}
+footer .wrap .gnb address a.a{
+  position:absolute;
+  right:146px;
+  top:19px;
+  color: #d8d8d8;
+}
+footer .wrap .gnb p.p{
+  color: #d8d8d8;
+}

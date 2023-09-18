@@ -1,0 +1,48 @@
+header{
+  position:fixed;
+  background-color:#ffffff;
+  box-sizing:border-box;
+  z-index:10;
+  width: 100%;
+}
+header .wrap{
+
+  height:100%;
+}
+header .wrap .Enb{
+  width:100%;
+  line-height:90px;
+}
+header .wrap .Enb h1.h3{
+  width:calc(100% / 2);
+}
+header .wrap .Enb h1.h3 a{
+  font-size:0;
+  position:absolute;
+  height:51px;
+  width:256px;
+  top:20px;
+  background: 0 center no-repeat url(../img/tls1.png);
+  background-size: cover;
+}
+header .wrap .Enb .enb{
+  width:calc(100% / 2);
+  display:flex;
+  justify-content:center;
+  position: relative;
+}
+header .wrap .Enb .enb li{
+  width:105px;
+  text-align:center;
+  height:90px;
+  display:flex;
+}
+header .wrap .Enb .enb li .a1{
+  height:100%;
+  width:100%;
+  color:black;
+  transition: all 0.5s;
+}
+header .wrap .Enb .enb li .a1:hover{
+  color:#bcae9e;
+}
